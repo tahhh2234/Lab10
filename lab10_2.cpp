@@ -2,6 +2,15 @@
 using namespace std;
 
 //Write the function printO() here
+int printO(int x,int y){
+	for(int i = 0; i < x; i++){
+		for(int j = 0; j < y; j++){
+			cout << 'O';
+		}
+		cout << endl;
+	}
+	return 0;
+}
 
 int main(){
 	
